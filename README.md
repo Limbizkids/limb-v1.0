@@ -1,7 +1,7 @@
 # Line_Bot_Chat
 Script Webhook Line Messaging API Use Heroku Or Other
 
-# 「Keyword RpdBot~」
+# 「Keyword Limbizkids~」
    - Help
    - /jam 
    - /quotes 
@@ -26,7 +26,7 @@ Script Webhook Line Messaging API Use Heroku Or Other
 # Developer:
 Copyright @ Medantechno.com, Farzain, Toby
 
-Modified @ Rdp team
+Modified @ Limbizkids team
 
 # Deploy to:
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)

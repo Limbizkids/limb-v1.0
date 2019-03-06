@@ -1,8 +1,8 @@
 <?php
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
-$channelAccessToken = 'YOUR_CHANNEL_ACCESS _TOKEN'; //sesuaikan 
-$channelSecret = 'YOUR_CHANNEL_SECRET';//sesuaikan
+$channelAccessToken = 'usqvsFAyTZ4IIpN1WYMn8W+oE03ro1bhuQ7gUNw/uBAdmsLcn0TAAJucryYDBAUnxFV7jKF+TIteY7lp8tUvP0W8LIPzlc853Nsf//XB7a+dnXUCQKh9UpJIoCp94MDzwVSnZWawjW98AAg6H8OZ/VGUYhWQfeY8sLGRXgo3xvw='; //sesuaikan 
+$channelSecret = '58638f91f311df5c1beee77a586c54c3';//sesuaikan
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 $userId     = $client->parseEvents()[0]['source']['userId'];
 $groupId    = $client->parseEvents()[0]['source']['groupId'];
@@ -202,7 +202,7 @@ function qibla($keyword) {
 }
 //show menu, saat join dan command,menu
 if ($command == 'Help') {
-    $text .= "「Keyword RpdBot~」\n\n";
+    $text .= "「Keyword Limbizkids」\n\n";
     $text .= "- Help\n";
     $text .= "- /jam \n";
     $text .= "- /quotes \n";
@@ -513,7 +513,7 @@ if($message['type']=='text') {
             'messages' => array( 
                 array ( 
                         'type' => 'template', 
-                          'altText' => 'About Creator BedBotdzs', 
+                          'altText' => 'About Creator Limbizkids', 
                           'template' =>  
                           array ( 
                             'type' => 'buttons', 
@@ -521,15 +521,15 @@ if($message['type']=='text') {
                             'imageAspectRatio' => 'rectangle', 
                             'imageSize' => 'cover', 
                             'imageBackgroundColor' => '#FFFFFF', 
-                            'title' => 'Muhammad Raihan Permadi', 
-                            'text' => 'Creator BedBotdzs', 
+                            'title' => 'Limbizkids', 
+                            'text' => 'Creator Limbizkids', 
                             'actions' =>  
                             array ( 
                               0 =>  
                               array ( 
                                 'type' => 'uri', 
                                 'label' => 'Contact', 
-                                'uri' => 'https://line.me/ti/p/~rhnprmd', 
+                                'uri' => 'https://line.me/ti/p/~arif.fira', 
                               ), 
                             ), 
                           ), 
